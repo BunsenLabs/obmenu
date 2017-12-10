@@ -1,3 +1,26 @@
+obmenu (1.0-4+bl9) helium; urgency=medium
+
+  * Non-maintainer upload.
+  [ Philip Newborough ]
+  * debian/patches/deprecated-execute-to-command.patch:
+    - Update obxml.py to use new Openbox Execute action syntax.
+  * debian/postinst:
+    - Add postinstall message about syntax changes.
+  [ Jens John ]
+  * debian/control:
+   - Build architecture-independent package.
+  [ John Crawley ]
+  * debian/patches/{deprecated-execute-to-command.patch,series}, debian/postinst:
+   - Correct spelling.
+  * debian/copyright:
+   - Add CrunchBang and BunsenLabs contributors.
+  * debian/patches/deprecated-execute-to-command.patch:
+   - Add Author field.
+  * debian/control:
+   - Change Priority from deprecated "extra" to "optional".
+
+ -- John Crawley <john@bunsenlabs.org>  Sun, 10 Dec 2017 11:50:11 +0900
+
 obmenu (1.0-4) unstable; urgency=medium
 
   * debian/control:
