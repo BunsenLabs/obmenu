@@ -7,7 +7,7 @@ Standards-Version: 3.9.8
 Homepage: http://obmenu.sourceforge.net/
 
 Package: obmenu
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}, python-glade2
 Recommends: openbox
 Description: Graphical menu editor for openbox
