@@ -1,6 +1,6 @@
 Source: obmenu
 Section: x11
-Priority: extra
+Priority: optional
 Maintainer: Diego Sarzi <diegosarzi@gmail.com>
 Build-Depends: debhelper (>= 10), python-all-dev, dh-python
 Standards-Version: 3.9.8
