@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+
+#DEBHELPER#
+
+echo "This version of obmenu is not compatible with some deprecated"
+echo "Openbox menu syntax. For more information, please see:"
+echo "http://openbox.org/wiki/Help:Actions#Execute"
